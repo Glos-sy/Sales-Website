@@ -2,4 +2,219 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+#one, #two {
+    display: inline-block;
+    margin: 5px;
+    height: 100%;
+}
+
+#two {
+    float: right;
+    /* width: -1700px; */
+    border: 2px solid yellow;
+    width: 1690px;
+}
+
+
+#one {
+    border: 1px solid red;
+    width: 300px;
+    height: 900px;
+    /* background-color: lightblue; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    position: relative;
+}
+
+.logo-line {
+    border: 2px solid black;
+    width: 13px;
+    position: absolute;
+    top: 25px;
+    left: 124px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 200px;
+    margin: 20px 20px 100px 70px;
+}
+
+#absolute {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 0, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 29px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 250px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+
+#icon-one {
+    color: rgb(238, 238, 4);
+    font-size: 30px;
+}
+
+#icon-two {
+    color: brown;
+    font-size: 30px;
+}
+
+#icon-three {
+    color: brown;
+    font-size: 30px;
+}
+
+#icon-four {
+    color: brown;
+    font-size: 30px;
+}
+
+#icon-five {
+    color: blue;
+    font-size: 30px;
+}
+
+#icon-six {
+    color: rgb(238, 238, 4);
+    font-size: 30px;
+}
+
+#icon-seven {
+    color: blue;
+    font-size: 30px;
+}
+
+#icon-eight {
+    font-size: 30px;
+}
+
+.option {
+    margin: 0px 10px 20px 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+
+
+#eight-option {
+    margin-top: 110px;
+    font-size: 20px;
+    /* text-align: center; */
+    /* display: inline-block; */
+}
+
+.side-bar {
+    display: inline;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 3px;
+    /* border: 1px solid blue; */
+}
+
+#p-one {
+    position: absolute;
+}
+
+#p-two {
+    position: absolute;
+}
+
+#p-three {
+    position: absolute;
+}
+
+#p-four {
+    position: absolute;
+}
+
+#p-five {
+    position: absolute;
+}
+
+#p-six {
+    position: absolute;
+}
+
+#p-seven {
+    position: absolute;
+}
+
+#p-eight {
+    position: absolute;
+}
+
+nav {
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 30px 0px 30px 140px;
+    font-size: 22px;
+}
+
+#search-bar {
+    font-size: 40px;
+    position: absolute;
+    left: 450px;
+}
+
+nav input {
+    width: 620px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    margin-right: 100px;
+    border: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+span[class~=aside] {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.sample {
+    margin-right: 30px;
+}
+
+#nav-icon-two {
+    position: absolute;
+    right: 50px;
+}
+
+#nav-icon-one {
+    margin-left: 100px;
+    position: absolute;
+    right: 120px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
