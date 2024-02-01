@@ -8,31 +8,32 @@
 
 body {
     position: relative;
+    background-color: rgb(249, 245, 245);
 }
 
 #one, #two {
     display: inline-block;
-    margin: 5px;
+    margin: 3px;
     height: 100%;
 }
 
 #two {
     float: right;
     /* width: -1700px; */
-    border: 2px solid yellow;
-    width: 1690px;
+    /* border: 2px solid yellow; */
+    width: 1600px;
 }
 
 
 #one {
-    border: 1px solid red;
-    width: 300px;
+    /* border: 1px solid red; */
+    width: 310px;
     height: 900px;
-    /* background-color: lightblue; */
+    background-color: rgb(242, 239, 239);
     display: inline-block;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 70px;
     position: relative;
 }
 
@@ -40,14 +41,14 @@ body {
     border: 2px solid black;
     width: 13px;
     position: absolute;
-    top: 25px;
-    left: 124px;
+    top: 23px;
+    left: 128px;
 }
 
 .logo {
     font-size: 30px;
     font-weight: 200px;
-    margin: 20px 20px 100px 70px;
+    margin: 18px 20px 80px 70px;
 }
 
 #absolute {
@@ -56,59 +57,59 @@ body {
     background-color: rgba(255, 255, 0, 0.7);
     border-radius: 50%;
     position: absolute;
-    top: 6px;
-    left: 29px;
+    top: 5px;
+    left: 32px;
 }
 
 h2 {
     font-size: 35px;
     font-weight: 250px;
-    margin-left: 17px;
+    margin-left: 20px;
     margin-bottom: 30px;
 }
 
 
 #icon-one {
     color: rgb(238, 238, 4);
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-two {
     color: brown;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-three {
     color: brown;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-four {
     color: brown;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-five {
     color: blue;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-six {
     color: rgb(238, 238, 4);
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-seven {
     color: blue;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #icon-eight {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .option {
-    margin: 0px 10px 20px 20px;
+    margin: 0px 5px 20px 30px;
     padding-bottom: 15px;
     padding-top: 10px;
     position: relative;
@@ -116,8 +117,8 @@ h2 {
 
 
 #eight-option {
-    margin-top: 110px;
-    font-size: 20px;
+    margin-top: 100px;
+    font-size: 22px;
     /* text-align: center; */
     /* display: inline-block; */
 }
@@ -125,8 +126,8 @@ h2 {
 .side-bar {
     display: inline;
     margin-bottom: 1px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin-left: 40px;
+    font-size: 20px;
     font-weight: bolder;
     padding: 3px;
     /* border: 1px solid blue; */
@@ -167,7 +168,7 @@ h2 {
 nav {
     display: inline-block;
     /* border: 1px solid black; */
-    margin: 30px 0px 30px 140px;
+    margin: 21px 0px 15px 120px;
     font-size: 22px;
 }
 
@@ -178,13 +179,14 @@ nav {
 }
 
 nav input {
-    width: 620px;
+    width: 600px;
     height: 40px;
     font-size: 18px;
     font-weight: bold;
     color: rgb(219, 219, 219);
-    margin-right: 100px;
+    margin-right: 70px;
     border: none;
+    background-color: rgb(249, 245, 245);
 }
 
 nav a{
@@ -217,4 +219,109 @@ span[class~=aside] {
 img {
     width: 300px;
     height: 300px;
+}
+
+/* main, div {
+    display: inline-block;
+} */
+
+#pictures-one {
+    width: 700px;
+    /* border: 2px solid greenyellow; */
+    margin-left: 30px;
+}
+
+#first-seg img {
+    display: block;
+}
+
+.img-one, .img-two, #img-div-one, #img-div-two {
+    margin: 5px 2px 10px 4px;
+    width: 700px;
+    height: 200px;
+    border-radius: 20px;
+}
+.img-three, .img-four, .img-five, .img-six {
+    width: 333px;
+    height: 440px;
+    margin: 3px 2px 10px 4px;
+    border-radius: 20px;
+}
+
+.img-five {
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+
+.img-three {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main {
+    margin-left: 30px;
+}
+
+main .main-div {
+    display: inline-block;
+}
+
+#pictures-two {
+    /* width: 700px; */
+    /* border: 2px solid greenyellow; */
+    margin-left: 15px;
+}
+
+#third-seg img {
+    margin-bottom: 5px;
+}
+
+#fourth-seg img {
+    display: block;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#img-div-one {
+    background-color: rgb(226,181,119);
+    /* height: 250px; */
+    /* position: relative; */
+}
+
+#img-div-two{
+    background-color: rgb(31,34,27);
+    /* height: 230px; */
+    /* position: relative; */
+}
+
+
+.img-seven, .img-eight {
+    position: absolute;
+    width: 250px;
+    height: 198px;
+    border-radius: 20px;
+}
+
+.img-seven {
+    bottom: 16px;
+    right: 569px;
+}
+
+.img-eight {
+    right: 120px;
+    bottom: 227.15px;
+    width: 280px;
+}
+
+#summer {
+    font-family: 'Flavors', cursive;
+}
+
+#img-h2 {
+    position: absolute;
+    top: 165px;
+    left: 748px;
+    color: rgb(252, 248, 245);
+    font-weight: bolder;
 }
