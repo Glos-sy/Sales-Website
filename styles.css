@@ -315,7 +315,7 @@ main .main-div {
 }
 
 #summer {
-    font-family: 'Flavors', cursive;
+
 }
 
 #img-h2 {
@@ -324,4 +324,92 @@ main .main-div {
     left: 748px;
     color: rgb(252, 248, 245);
     font-weight: bolder;
+}
+
+#second-img-one, #second-img-two, #second-img-three, #second-img-h3, #second-img-second-text, #box {
+    position: absolute;
+}
+
+#second-img-one {
+    top: 310px;
+    font-family: 'Flavors', cursive;
+    font-size: 24px;
+    left: 550px;
+    color: rgb(215,208,187);
+}
+
+#second-img-h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: rgb(215,208,187);
+    top: 340px;
+    left: 565px;
+}
+
+#second-img-two {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    top: 392px;
+    left: 670px;
+    color: rgb(215,208,187);
+}
+
+#second-img-three {
+    font-family: 'Flavors', cursive;
+    top: 404px;
+    left: 760px;
+    font-size: 25px;
+}
+
+#second-img-second-text {
+    color: rgb(215,208,187);
+    top: 455px;
+    left: 580px;
+    font-family: 'Flavors', cursive;
+}
+
+/* #box {
+    background-color: rgb(215,208,187);
+    padding: 5px;
+    top: 330px;
+    left: 1000px;
+} */
+
+#fav-one, #fav-two, #fav-three, #fav-four {
+    position: absolute;
+}
+
+/* #fav-one {
+    top: 8000px;
+} */
+
+#next-h3 {
+    position: absolute;
+    color: rgb(12,55,58);
+    font-size: 30px;
+    bottom: 320px;
+    right: 578px;
+}
+
+#next-p {
+    font-size: 20px;
+    position: absolute;
+    bottom: 283px;
+    right: 480px;
+}
+
+#last-h {
+    font-size: 30px;
+    color: rgb(216,216,212);
+    position: absolute;
+    bottom: 96px;
+    right: 190px;
+}
+
+#last-p {
+    position: absolute;
+    color: rgb(216,216,212);
+    bottom: 60px;
+    font-size: 20px;
+    right: 160px;
 }
